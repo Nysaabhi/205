@@ -17282,7 +17282,6 @@ function openPlacePage(placeName) {
   scrollToTop();
 }
 
-// Function to close the place page
 function closePlacePage() {
   const placePage = document.querySelector('.place-page');
   if (placePage) {
@@ -17343,7 +17342,7 @@ function addPlacePageStyles() {
 
 .place-header h2 {
   margin: 0;
-  font-size: 1.2em;
+  font-size: 16px;
   font-weight: 600;
   text-align: center;
   flex: 1;
@@ -17877,7 +17876,7 @@ function addPlacePageStyles() {
   }
   
   .place-header h2 {
-    font-size: 1.5em;
+    font-size: 16px;
   }
   
   .place-hero {
@@ -17900,7 +17899,7 @@ function addPlacePageStyles() {
   }
   
   .place-name {
-    font-size: 2em;
+    font-size: 16px;
     font-weight: 700;
     margin: 0;
   }
@@ -17999,7 +17998,7 @@ function addPlacePageStyles() {
   }
   
   .place-name {
-    font-size: 2.2em;
+    font-size: 16px;
   }
   
   .place-description-section {
