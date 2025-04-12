@@ -16255,7 +16255,7 @@ function showPlacesOverlay() {
 }
 
 .places-grid {
-  margin-top: 70px;
+  margin-top: 90px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 20px;
@@ -16410,6 +16410,7 @@ function showPlacesOverlay() {
 }
 
 .place-name {
+  font-family: poppins;
   font-size: 18px;
   font-weight: 600;
   color: #333;
@@ -16621,7 +16622,7 @@ function showPlacesOverlay() {
   .places-grid {
     grid-template-columns: 2fr;
     padding: 0 12px;
-    margin-top: 120px;
+    margin-top: 90px;
     gap: 16px;
   }
   
@@ -16951,7 +16952,7 @@ function showPlacesOverlay() {
   .places-grid {
     grid-template-columns: 1fr;
     padding: 0 10px;
-    margin-top: 75px;
+    margin-top: 80px;
     gap: 15px;
   }
 
@@ -17303,7 +17304,7 @@ function addPlacePageStyles() {
   z-index: 2000;
   overflow-y: auto;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: 'poppins';
 }
 
 /* Place Header */
@@ -17899,8 +17900,8 @@ function addPlacePageStyles() {
   }
   
   .place-name {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     margin: 0;
   }
   
